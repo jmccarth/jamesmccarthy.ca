@@ -4,7 +4,7 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 body {
-	font-family: Verdana, sans-serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
@@ -23,10 +23,10 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: #454545;
 }
 a {
-	color: #3273dc;
+	color: #02642c;
 }
 nav a {
 	margin-right: 10px;
@@ -65,3 +65,4 @@ blockquote {
 	margin: 0px;
 	font-style: italic;
 }
+

@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import Layout from '../layouts/BasePageLayout.astro';
 ---
 
 <Layout
@@ -7,10 +7,27 @@ import Layout from '../layouts/BlogPost.astro';
 	description="Lorem ipsum dolor sit amet"
 	pubDate={new Date('April 28 2023')}
 	updatedDate={new Date('April 28 2023')}
-	heroImage="/placeholder-about.jpg"
 >
+
+<style>
+	img {
+		align-self: center;
+	}
+	.about-content {
+		display:flex;
+	}
+	.about-text {
+		padding-left: 10px;
+	}
+</style>
+
+<div class="about-content">
+<img width="128" height="128" src="/assets/headshot.jpg" />
+<p class="about-text">
 Spatial informatics specialist with a background in GIS and Computer Science. I'm a graduate (B.Sc. with Honours, M.Sc.) of the short-lived Geoinformatics program at the University of Windsor.
 
 I'm currently employed at the University of Waterloo as the Geospatial Application Specialist in the Mapping, Analysis, and Deisgn unit in the Faculty of Environment.
-
+</p>
+</div>
 </Layout>
+

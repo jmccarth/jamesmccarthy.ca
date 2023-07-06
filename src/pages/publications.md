@@ -1,7 +1,9 @@
 ---
+layout: "../layouts/BasePageLayout.astro"
 title: "Publications"
 date: "2012-09-10"
 ---
+## Publications
 
 ### Journals
 
